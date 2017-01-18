@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>form</title>
+<style>
+.form{
+background-image:url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQxPY1VmPOqgQip3ku3TUrx5g_uryG63qlN9iDBaXkWkTrT466fqA")
+}
+.header
+{
+width:100%;
+height:20%;
+color:blue;
+}
+label
+{
+    width:50%;
+    height:50%;
+    color:purple;
+    font-family:monotype corsiva;
+
+}
+.footer[input]
+{
+    width:50;
+    height:20;
+    margin-left:20px;
+    color:pink;
+}
+
+
+</style>
+</head>
+<body>
+<div class="form">
+<div class="header">
+       <h1>Registration form</h1> 
+</div>
+<div class="body area">
+    <label for="fname">FIRST NAME: </label>
+    <input type="text" name="fname" value=""/>
+</div>
+<div class="body area">
+        <label for="lname">LAST NAME:</label>
+        <input type="text" name="lname" value=""/>
+</div>
+<div class ="body area">
+            <label for="ename">E mail:</label>
+            <input type="email" name="ename" value=""/>
+</div>
+<div class="body area">
+    <label for="age">AGE:</label>
+    <input type="number" name ="age" value=""/>
+</div>
+<div class="body area">
+    <label for="dob">DATE OF BIRTH:</label>
+    <input type="date" name="dob" value=""/>
+    </div>
+    <div class="body area">
+        <label for="gen">gender:</label>
+        <input type="radio" name="GENDER" value="m">MALE<br>
+        <input type="radio" name="GENDER" value="f">FEMALE
+        
+    </div>
+    <div class="body area">
+        <label for="colg">college</label>
+        <select name="college">
+            <option value="sai college">Sai college</option>
+            <option value="acet">Amritsar  college</option>
+            <option value="ssc">Saraswati college</option>
+            <option value="others">Others</option>
+        </select>
+    </div>
+<div class="body area">
+	<label for="Hobby">HOBBIES</label>
+	<input type="checkbox" name="hobby" value="swimming">Swimming
+	<input type="checkbox" name="hobby" value="dancing">Dancing
+	<input type="checkbox" name="hobby" value="reading books">Reading Books
+	<input type="checkbox" name="hobby" value="internet surfing">Internet Surfing
+	</div>
+	<div class="footer">
+	    <br>
+	    <input type="submit" name="submit" value="SUBMIT"/>
+	</div>
+	
+	</div>
+	
+</body>
+</html>
